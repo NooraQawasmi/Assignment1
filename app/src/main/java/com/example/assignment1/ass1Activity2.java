@@ -24,23 +24,5 @@ private Spinner spinner1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ass12);
 
-        name=findViewById(R.id.text_name);
-        password=findViewById(R.id.text_password);
-        spinner1=findViewById(R.id.text_spinner1);
-
-
-
-        String username = getIntent().getStringExtra("keyname");
-        String userpassword = getIntent().getStringExtra("keypassword");
-        String userspinner1 = getIntent().getStringExtra("keyspinner1");
-
-
-
-        name.setText(username);
-        password.setText(userpassword);
-
-
-
-
     }
 }

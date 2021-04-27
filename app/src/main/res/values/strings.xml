@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Assignment1</string>
     <string-array name="Your_specialty_is">
-        <item>Computer Science </item>
-        <item>Computer Engineering</item>
-        <item>Electrical Engineering</item>
-
+        <item>Male </item>
+        <item>Female</item>
     </string-array>
 </resources>

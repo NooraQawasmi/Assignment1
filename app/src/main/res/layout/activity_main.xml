@@ -12,18 +12,6 @@
     tools:visibility="visible">
 
 
-
-
-
-    <pl.droidsonroids.gif.GifImageView
-
-        android:id="@+id/gifImageView"
-        android:layout_width="match_parent"
-        android:layout_height="158dp"
-        android:src="@drawable/and"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         style="@style/mystyle1"
         android:layout_width="445dp"
@@ -47,7 +35,7 @@
 
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/editname"
         style="@style/mystyle1"
         android:layout_width="661dp"
         android:layout_height="80dp"
@@ -56,13 +44,19 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/editpassword"
         style="@style/mystyle1"
         android:layout_width="661dp"
         android:layout_height="80dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your gender:" />
 
     <Spinner
         android:id="@+id/spinner1"
@@ -95,15 +89,32 @@
 
     </Switch>
 
+    <CheckBox
+        style="@style/mystyle1"
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remember me"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="325dp" />
 
     <Button
-        style="@style/mystyle2"
-        android:id="@+id/show"
+        android:id="@+id/next"
+        style="@style/mystyle1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show"
+        android:text="Next to work page"
         app:backgroundTint="#50C3B8"
         app:iconTint="#0C0912" />
+
+    <Button
+        android:id="@+id/go"
+        style="@style/mystyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#50C3B8"
+        app:iconTint="#0C0912"
+        android:text="Next to Edu page" />
 
 
 </LinearLayout>
